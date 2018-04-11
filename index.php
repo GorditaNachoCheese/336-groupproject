@@ -3,7 +3,7 @@
     if(!isset($_SESSION['cart'])){
         $_SESSION['cart'] = array();
     }
-    
+//test    
     include 'dbConnection.php';
     
     $conn = getDatabaseConnection("Gamestore");
